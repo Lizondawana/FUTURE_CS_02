@@ -1,78 +1,36 @@
-# 🔍 Phishing Detection & Awareness Report
-### Future Interns — Cyber Security Task 2 (2026)
 
----
+Phishing Detection & Awareness Report
+GitHub Repository README
 
-## 📌 Overview
+Overview
+This repository contains the Phishing Email Detection & Awareness Report completed as part of the Future Interns Cyber Security Task 2 (2026).
+The report analyses phishing email samples, identifies phishing indicators, classifies emails by risk level, and provides prevention guidelines for employees.
+Repository Contents
+File	Description
+phishing-report.docx	Phishing Detection & Awareness Report
+samples/sample1.txt	Phishing email sample 1
+samples/sample2.txt	Phishing email sample 2
+samples/sample3.txt	Phishing email sample 3
+README.docx	This file
+Tools Used
+Tool	URL / Purpose
+Google Admin Toolbox — Email Header Analyzer	toolbox.googleapps.com/apps/messageheader/
+MXToolbox Email Header Analyzer	mxtoolbox.com/EmailHeaders.aspx
+Google Docs / MS Word / PDF	Report documentation and formatting
+Analysis Approach
+•	Collected phishing email samples
+•	Analysed email headers using the provided tools
+•	Inspected sender domains and links
+•	Identified phishing indicators in each sample
+•	Classified each email by risk level: Safe / Suspicious / Phishing
+•	Documented findings and created prevention guidelines
+Samples Analysed
+#	Sample	Attack Type	Risk Level
+1	Account Verification Email	Credential harvesting via fake login page	Phishing
+2	IT Password Reset	Display name spoofing + Reply-To harvesting	Phishing
+3	Invoice / Finance Request	Business Email Compromise (BEC)	Suspicious
+Author
+Name: Lizo Ndawana
+Programme: Future Interns — Cyber Security Task 2
+Year: 2026
 
-This repository contains a professional **Phishing Email Detection & Awareness Report** produced as part of the Future Interns Cyber Security Task 2 program.
-
-The report analyses real-world phishing email patterns, identifies common attack techniques, classifies emails by risk level, and provides clear prevention guidelines for employees and organisations.
-
-> This project covers **security education and analysis only** — no offensive or illegal activity is involved.
-
----
-
-## 📁 Repository Contents
-
-| File | Description |
-|------|-------------|
-| `phishing-awareness-report.pdf` | Full phishing detection & awareness report |
-| `samples/sample1-account-verification.txt` | Phishing email sample 1 — credential harvesting |
-| `samples/sample2-it-password-reset.txt` | Phishing email sample 2 — IT impersonation |
-| `samples/sample3-invoice-bec.txt` | Phishing email sample 3 — BEC / finance fraud |
-| `README.md` | This file |
-
----
-
-## 🛠️ Tools Used
-
-| Tool | Purpose |
-|------|---------|
-| [Google Admin Toolbox](https://toolbox.googleapps.com/apps/messageheader/) | Email header analysis — SPF, DKIM, DMARC inspection |
-| [MXToolbox](https://mxtoolbox.com/EmailHeaders.aspx) | Secondary header analyser and domain reputation |
-| [VirusTotal](https://www.virustotal.com) | URL and attachment scanning |
-| [WHOIS Lookup](https://whois.domaintools.com) | Domain registration and age verification |
-| [PhishTank](https://www.phishtank.org) | URL reputation against phishing database |
-| Google Docs / HTML | Report documentation and formatting |
-
----
-
-## 🔎 Analysis Approach
-
-Each email sample was examined using a structured 5-step methodology:
-
-1. **Header Inspection** — Verified SPF/DKIM/DMARC status, identified true sending server, and checked for Reply-To mismatches
-2. **Domain Verification** — Cross-referenced sender domain against WHOIS records and known legitimate domains
-3. **Link Analysis** — Hover-inspected all URLs and submitted to VirusTotal and PhishTank without clicking
-4. **Content Analysis** — Identified psychological manipulation tactics such as urgency, fear, and authority impersonation
-5. **Risk Classification** — Scored indicators and assigned each email a risk level: Safe / Suspicious / Phishing
-
----
-
-## 📊 Samples Analysed
-
-| # | Sample | Attack Type | Risk Level |
-|---|--------|-------------|------------|
-| 1 | Account Verification Email | Credential harvesting via fake login page | ✖ Phishing |
-| 2 | IT Password Reset | Display name spoofing + Reply-To harvesting | ✖ Phishing |
-| 3 | Invoice / Finance Request | Business Email Compromise (BEC) | ⚠ Suspicious |
-
----
-
-## 📚 Reference Repositories (Study Only)
-
-The following public repositories were used for learning and reference:
-
-- [rf-peixoto/phishing_pot](https://github.com/rf-peixoto/phishing_pot) — Real phishing email samples
-- [autinerd/phishing-mail-examples](https://github.com/autinerd/phishing-mail-examples) — Header and body text examples
-- [sadat1971/Phishing_Email](https://github.com/sadat1971/Phishing_Email) — Labelled phishing dataset
-
-> ⚠️ These were used for study purposes only. No content was copied or reused.
-
----
-
-## 👤 Author :Lizo Ndawana
-
-**Future Interns — Cyber Security Task 2**  
-April 2026
