@@ -1,0 +1,16 @@
+Subject: ⚠️ Urgent: Your Account Will Be Locked
+From: security-team@secure-account-verify.com
+To: user@company.com
+
+Dear User,
+
+We noticed suspicious activity on your account.
+To avoid account suspension, please verify your details immediately.
+
+Verify Now:
+http://secure-account-verify.com/login?session=9f2k
+
+Failure to verify within 24 hours will result in permanent account lock.
+
+Regards,
+Security Team
