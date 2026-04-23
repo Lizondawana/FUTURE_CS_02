@@ -1,58 +1,83 @@
-# Phishing Detection & Awareness Report
+Phishing Email Detection & Awareness Report
 
-## Overview
-This repository contains the Phishing Email Detection & Awareness Report completed as part of the Future Interns Cyber Security Task 2 (2026).
+Cybersecurity Task 2 — Future Interns (2026)
 
-The report analyses phishing email samples, identifies phishing indicators, classifies emails by risk level, and provides prevention guidelines for employees.
+Overview
 
----
+This project focuses on phishing email detection and user awareness. The aim was to analyse real phishing email samples, identify common attack patterns, and create a report that helps users understand and avoid email-based threats.
 
-## Repository Contents
+Phishing attacks target people rather than systems, using deception and psychological tricks. This project approaches the problem from a security analysis and awareness perspective.
 
-| File | Description |
-|------|-------------|
-| `phishing-report.docx` | Phishing Detection & Awareness Report |
-| `samples/sample1.txt` | Phishing email sample 1 |
-| `samples/sample2.txt` | Phishing email sample 2 |
-| `samples/sample3.txt` | Phishing email sample 3 |
-| `README.md` | This file |
+Full report included in this repository.
 
----
+Objectives
+Analyse phishing email samples
+Identify common phishing indicators
+Classify emails based on risk level
+Explain attacks in simple language
+Provide practical prevention guidelines
+Tools Used
+Email Header Analyzer (Google Toolbox, MXToolbox)
+Browser Developer Tools
+Public phishing datasets
+Manual analysis
+Project Structure
 
-## Tools Used
 
-| Tool | URL |
-|------|-----|
-| Google Admin Toolbox — Email Header Analyzer | toolbox.googleapps.com/apps/messageheader/ |
-| MXToolbox Email Header Analyzer | mxtoolbox.com/EmailHeaders.aspx |
-| Google Docs / MS Word / PDF | Report documentation and formatting |
+Key Findings
 
----
+Common phishing indicators identified:
 
-## Analysis Approach
+Fake or lookalike sender domains
+Generic greetings (e.g. "Dear User")
+Urgency and fear tactics
+Suspicious or shortened links
+Requests for sensitive information
+Malicious attachments (.docm, .exe, .zip)
+Email Classification Summary
 
-- Collected phishing email samples
-- Analysed email headers using the provided tools
-- Inspected sender domains and links
-- Identified phishing indicators in each sample
-- Classified each email by risk level: Safe / Suspicious / Phishing
-- Documented findings and created prevention guidelines
+Sample 1 – Account Suspension → PHISHING
+Sample 2 – Microsoft Password Expiry → PHISHING
+Sample 3 – CEO Payment Request (BEC) → PHISHING
+Sample 4 – HR Policy Attachment → SUSPICIOUS
+Sample 5 – Bank Verification → PHISHING
 
----
+STOP — THINK — VERIFY Method
 
-## Samples Analysed
+STOP
+Pause before clicking or responding
 
-| # | Sample | Attack Type | Risk Level |
-|---|--------|-------------|------------|
-| 1 | Account Verification Email | Credential harvesting via fake login page | Phishing |
-| 2 | IT Password Reset | Display name spoofing + Reply-To harvesting | Phishing |
-| 3 | Invoice / Finance Request | Business Email Compromise (BEC) | Suspicious |
+THINK
+Check sender address, links, and message content
 
----
+VERIFY
+Confirm through a trusted source before acting
 
-## Author
+What To Do If You Receive a Phishing Email
+Do not click any links
+Do not open attachments
+Report the email to IT/security
+Delete the email
 
-**Name:** Lizo Ndawana  
-**Programme:** Future Interns — Cyber Security Task 2  
-**Year:** 2026
+If you already interacted with it:
+
+Change your password immediately
+Enable multi-factor authentication
+Inform the security team
+Monitor your accounts
+Recommendations
+Use strong, unique passwords
+Enable multi-factor authentication (MFA)
+Never share credentials via email
+Verify urgent or financial requests
+Stay aware of phishing tactics
+Conclusion
+
+Phishing remains one of the most effective cyber attacks because it exploits human behaviour. By understanding common indicators and applying simple verification steps, users can significantly reduce the risk of falling victim to these attacks.
+
+Author
+
+Lizo Ndawana
+Cybersecurity Intern — Future Interns (2026)
+
 
