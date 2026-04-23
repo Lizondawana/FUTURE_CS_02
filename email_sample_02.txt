@@ -1,0 +1,18 @@
+From: security-team@secure-account-verify.com
+To: user@company.com
+Subject: Urgent: Your Account Will Be Locked
+Date: Mon, 20 Apr 2026 09:14:33 +0000
+Message-ID: <8f3a2c1d@secure-account-verify.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Received: from mail.secure-account-verify.com (192.168.45.231)
+        by mx.company.com with SMTP id x7si123456;
+        Mon, 20 Apr 2026 09:14:35 +0000
+Received-SPF: fail (google.com: domain of secure-account-verify.com
+        does not designate 192.168.45.231 as permitted sender)
+Authentication-Results: mx.company.com;
+        dkim=none (no signature);
+        spf=fail (sender IP is 192.168.45.231);
+        dmarc=fail action=none
+X-Originating-IP: 192.168.45.231
+X-Mailer: PHPMailer 6.0
